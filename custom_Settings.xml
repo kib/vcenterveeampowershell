@@ -1,0 +1,17 @@
+﻿<?xml version="1.0"?>
+<Settings>
+  <EmailSettings>
+    <SMTPServer>yoursmtpserver</SMTPServer>
+    <SMTPPort>25</SMTPPort>
+    <MailFrom>mailfrom@yourdomain.com</MailFrom>
+    <MailTo>DL_Veeamadmin@yourdomain.com</MailTo>
+  </EmailSettings>
+  <Exclusions>
+     <!-- Add VMs here that are to be excluded from the check -->
+     <VM>test-do-not-backup</VM>
+  </Exclusions>
+  <OtherSettings>
+    <SendMailOnNoError>False</SendMailOnNoError>
+    <Vcenter>your.vcenter.fqdn</Vcenter>
+  </OtherSettings>
+</Settings>
